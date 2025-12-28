@@ -13,7 +13,7 @@ export default function About() {
         </div>
 
         <div className="space-y-4">
-          {["Next.js", "React", "Tailwind CSS", "MongoDB", "NextAuth"].map(skill => (
+          {["Next.js", "ReactJs", "Tailwind CSS","Bootstarp","MaterialUI", "MongoDB","My Sql","Node.js","Express.js","Phython(Django ) ","NextAuth"].map(skill => (
             <div key={skill} className="bg-white p-4 rounded shadow">
               {skill}
             </div>

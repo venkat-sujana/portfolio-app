@@ -11,19 +11,19 @@ export default function Skills() {
           <SkillCard
             icon={<Code className="w-12 h-12" />}
             title="Frontend"
-            items={["HTML", "CSS", "Tailwind", "React", "Next.js"]}
+            items={["HTML", "CSS", "Tailwind", "React","Bootstrap","MaterialUI", "Next.js"]}
             gradient="from-blue-500 to-indigo-600"
           />
           <SkillCard
             icon={<Database className="w-12 h-12" />}
             title="Backend"
-            items={["Node.js", "MongoDB"]}
+            items={["Node.js","Django", "Express.js","MySql" ,"MongoDB"]}
             gradient="from-emerald-500 to-teal-600"
           />
           <SkillCard
             icon={<Toolbox className="w-12 h-12" />}
             title="Tools"
-            items={["Git", "GitHub", "Vercel"]}
+            items={["Git", "GitHub", "Vercel"," Postman", "Netlify"]}
             gradient="from-purple-500 to-pink-600"
           />
         </div>
@@ -46,7 +46,7 @@ function SkillCard({ icon, title, items, gradient }) {
           <div className="text-white drop-shadow-md">{icon}</div>
         </div>
         
-        <h3 className="text-2xl font-bold text-slate-900 mb-4 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent group-hover:from-slate-900 group-hover:to-indigo-700 transition-all duration-300">
+        <h3 className="text-2xl font-bold text-transparent  mb-4 bg-linear-to-r from-slate-900 to-slate-700 bg-clip-text  group-hover:from-slate-900 group-hover:to-indigo-700 transition-all duration-300">
           {title}
         </h3>
         
